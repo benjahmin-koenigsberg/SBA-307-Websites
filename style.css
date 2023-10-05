@@ -113,6 +113,16 @@ ul {
     /* height: 35vh; */
 }
 
+
+.accordion-button{
+    font-size: 1.5rem;
+
+}
+
+.accordion-body{
+    font-size: 1rem;
+}
+
 .list-group{
         font-family: 'Oswald', sans-serif;
 }
@@ -136,6 +146,7 @@ ul {
 .denial-image-container {
     padding: 1rem;
     display: flex;
+    max-height: 70vh;
 }
 
 

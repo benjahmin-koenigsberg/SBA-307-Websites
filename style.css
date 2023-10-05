@@ -24,10 +24,16 @@ ul {
 
 .main-header {
     text-align: center;
-    margin: 3rem 0;
+    margin: 3rem 0 1rem 0;
     word-wrap: break-word;
     letter-spacing: .25rem;
     text-shadow: -2px 5px gray;
+}
+
+.main-sub-header{
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        padding: 1rem;
 }
 
 @keyframes tilt-shaking {

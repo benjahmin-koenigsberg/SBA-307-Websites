@@ -5,6 +5,10 @@ body {
     width: 100%;
 }
 
+nav {
+    padding: 0 2rem;
+}
+
 a,
 a:hover {
     color: inherit;
@@ -103,6 +107,14 @@ ul {
     /* height: 35vh; */
 }
 
+.list-group{
+        font-family: 'Oswald', sans-serif;
+}
+
+.table-column  {
+    font-weight: bold;
+    color: black;
+}
 
 .denial-container {
     width: 90%;
@@ -117,8 +129,9 @@ ul {
 
 .denial-image-container {
     padding: 1rem;
-    /* background-image: url("https: //64.media.tumblr.com/04e6a2ff29e37b35e28cbc3576e98c8a/tumblr_inline_o22pxrO6nU1sfu0ui_1280.jpg"); */
+    display: flex;
 }
+
 
 .denial-text-container {
     /* width: 45%; */
@@ -189,5 +202,10 @@ footer {
     .denial-text-container {
         text-align: center;
     }
+
+        .denial-image-container > img {
+            width: 85vw;
+
+        }
 
 }

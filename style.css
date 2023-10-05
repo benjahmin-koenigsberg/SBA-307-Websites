@@ -60,6 +60,12 @@ ul {
     border-radius: .5rem;
 }
 
+.about-container{
+    width: 90%;
+    margin: auto;
+    /* height: 35vh; */
+}
+
 footer {
     width: 100%;
     min-height: 20vh;
@@ -71,24 +77,7 @@ footer {
     flex-wrap: wrap-reverse;
 }
 
-@media (max-width: 768px) {
-    footer {
-        flex-direction: column-reverse;
-    }
 
-    form {
-        width: 100%;
-    }
-
-    .form-container {
-        margin: auto;
-        margin-bottom: 2rem;
-    }
-
-    .btn{
-        margin: auto;
-    }
-}
 
 .footer-links-container {
     display: flex;
@@ -100,8 +89,28 @@ footer {
 }
 
 
-
-
-form {
+.sign-up-form {
     width: 40vw;
+}
+
+
+
+/* medai query */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .sign-up-form {
+        width: 100%;
+    }
+
+    .form-container {
+        margin: auto;
+        margin: 2rem auto;
+    }
+
+    .btn {
+        margin: auto;
+    }
 }

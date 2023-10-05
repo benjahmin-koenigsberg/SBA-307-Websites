@@ -10,7 +10,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
     </style>
-    <title>SBA Websotes</title>
+    <title>About</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Carnism?</a>
+                <a class="navbar-brand" href="./index.html">Carnism?</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="#">Neseccary</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./about.html">About</a>
+                            <a class="nav-link" href="#">About</a>
                         </li>
 
                     </ul>
@@ -47,22 +47,63 @@
     </header>
 
     <section>
-        <h1 class="main-header display-2 constant-tilt-shake">Fallacies of eating animals</h1>
-        <div class="justifaction-card-container">
-
-            <div class="justifaction-card "></div>
-            <div class="justifaction-card "></div>
-            <div class="justifaction-card "></div>
-
+        <h1 class="main-header display-2">About</h1>
+        <div class="card about-container">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia distinctio quos quis dolorum aperiam iure minima excepturi vero incidunt sint libero sunt quo molestias architecto nisi ducimus laborum optio sit, voluptates eos voluptas quia quod in? Est vel ad quidem?</li>
+                <li class="list-group-item text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea placeat et, non inventore soluta, nihil ut eum sequi, quo quaerat cum quibusdam corrupti! Corporis suscipit nobis saepe qui corrupti necessitatibus sapiente! Mollitia neque enim tenetur. Quia pariatur dolorum dignissimos inventore.</li>
+            </ul>
+            <div class="card-footer">
+                <h5 class="text-center mt-2">Send us a message us</h5>
+<form id="contact_form" name="contact_form" method="post">
+    <div class="mb-5 row">
+        <div class="col">
+            <label>First Name</label>
+            <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
+        </div>
+        <!-- <div class="col">
+            <label>Last Name</label>
+            <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+        </div> -->
+    </div>
+    <div class="mb-5 row">
+        <div class="col">
+            <label for="email_addr">Email address</label>
+            <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                placeholder="name@example.com">
+        </div>
+        <!-- <div class="col">
+            <label for="phone_input">Phone</label>
+            <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                placeholder="Phone">
+        </div> -->
+    </div>
+    <div class="mb-5">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+    </div>
+    <div class="text-center mb-4">
+    <button type="submit" class="btn btn-primary px-4 btn-lg">Email</button>
+    </div>
+</form>
+            </div>
         </div>
     </section>
     <footer class="bg-light">
         <div class="footer-links-container">
-            <ul >
-                <li><p>Normal</p></li>
-                <li><p>Natural</p></li>
-                <li><p>Neseccary</p></li>
-                <li><p>About</p></li>
+            <ul>
+                <li>
+                    <p>Normal</p>
+                </li>
+                <li>
+                    <p>Natural</p>
+                </li>
+                <li>
+                    <p>Neseccary</p>
+                </li>
+                <li>
+                    <p>About</p>
+                </li>
             </ul>
         </div>
         <div class="form-container">
@@ -81,7 +122,7 @@
                     <label class="form-check-label" for="exampleCheck1">I aggree to recieve e-mails from you</label>
                 </div>
                 <div class="text-center">
-                <button type="submit" class="btn btn-primary">Sign Up</button>
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
                 </div>
             </form>
         </div>

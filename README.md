@@ -47,7 +47,8 @@ HTML Requirements
 
 ● Include at least one dropdown menu.
 
-- see navbar is mobile view
+- see message form on about page
+- see navbar ii mobile view
 
 ● text, gifs and images
 

@@ -41,8 +41,8 @@
 
 html {
     margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -85,7 +85,7 @@ ul {
     font-size: 1.5rem;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: larger;
 }
 
@@ -150,7 +150,7 @@ ul {
 
 
 /* About page */
-.about-container{
+.about-container {
     margin-bottom: 5rem;
 }
 
@@ -241,6 +241,8 @@ footer {
 
 /* medai query for tablets and smaller*/
 @media (max-width: 768px) {
+
+
     footer {
         flex-direction: column;
 
@@ -248,7 +250,6 @@ footer {
 
 
     .form-container {
-        margin: auto;
         margin: 2rem auto;
     }
 
@@ -263,7 +264,7 @@ footer {
     .denial-container {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: center;`
     }
 
     .denial-text-container {

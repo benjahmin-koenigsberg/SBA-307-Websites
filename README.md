@@ -1,5 +1,6 @@
 ### About this Repo
 
+ the **What is Carnism?** website
 
 > I was tasked to build this site / repo to test my skills in creating a simple website with a clean layout and styling.
 
@@ -74,6 +75,10 @@ CSS Requirements
 ### Inspiration
 
 Trillions of sentient beings are being needlessy harmed and breed into exploitation everyday, so I will do better to be an advocate for them and help end their suffering by raising awareness about them, carnism and veganism
+
+### Live site
+
+https://magnificent-kitten-6c1630.netlify.app/
 
 
 #### Wirefrmaes

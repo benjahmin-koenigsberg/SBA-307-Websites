@@ -3,11 +3,13 @@
 body {
     font-family: 'Bangers', cursive;
     width: 100%;
+    background-color: lightgray;
 }
 
 nav {
-    padding: 0 2rem;
+    padding: 0 3rem;
 }
+
 
 a,
 a:hover {
@@ -28,12 +30,13 @@ ul {
     word-wrap: break-word;
     letter-spacing: .25rem;
     text-shadow: -2px 5px gray;
+    font-size: 5rem;
 }
 
-.main-sub-header{
-        font-family: 'Oswald', sans-serif;
-        text-align: center;
-        padding: 1rem;
+.main-sub-header {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 1rem;
 }
 
 @keyframes tilt-shaking {
@@ -79,16 +82,18 @@ ul {
 
 .justifaction-card-container {
     display: flex;
-    width: 85%;
+    width: 75%;
     align-items: center;
     justify-content: space-evenly;
-    margin: 3rem auto;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    padding-top: 2.5rem;
     flex-wrap: wrap;
 }
 
 .justifaction-card {
-    height: 20rem;
-    width: 18rem;
+    height: 24rem;
+    width: 20rem;
     border: 1px solid black;
     margin: 1rem 0;
     border-radius: .5rem;
@@ -100,6 +105,7 @@ ul {
     padding: .5rem;
     box-shadow: -8px 9px 5px -6px;
     cursor: pointer;
+    background-color: white;
 }
 
 .gif {
@@ -114,20 +120,20 @@ ul {
 }
 
 
-.accordion-button{
+.accordion-button {
     font-size: 1.5rem;
 
 }
 
-.accordion-body{
+.accordion-body {
     font-size: 1rem;
 }
 
-.list-group{
-        font-family: 'Oswald', sans-serif;
+.list-group {
+    font-family: 'Oswald', sans-serif;
 }
 
-.table-column  {
+.table-column {
     font-weight: bold;
     color: black;
 }
@@ -177,9 +183,14 @@ footer {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
+
+
+.footer-links-container  li:hover {
+text-decoration: underline;
+}
 
 .sign-up-form {
     width: 40vw;
@@ -193,9 +204,6 @@ footer {
         flex-direction: column;
     }
 
-    .sign-up-form {
-        width: 100%;
-    }
 
     .form-container {
         margin: auto;
@@ -220,9 +228,9 @@ footer {
         text-align: center;
     }
 
-        .denial-image-container > img {
-            width: 85vw;
+    .denial-image-container>img {
+        width: 85vw;
 
-        }
+    }
 
 }

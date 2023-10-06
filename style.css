@@ -1,43 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
-body {
-    font-family: 'Bangers', cursive;
-    width: 100%;
-    background-color: lightgray;
-}
 
-nav {
-    padding: 0 3rem;
-}
-
-
-a,
-a:hover {
-    color: inherit;
-    text-decoration: none;
-}
-
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.main-header {
-    text-align: center;
-    margin: 3rem 0 1rem 0;
-    word-wrap: break-word;
-    letter-spacing: .25rem;
-    text-shadow: -2px 5px gray;
-    font-size: 5rem;
-}
-
-.main-sub-header {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    padding: 1rem;
-}
+/* CSS animations */
 
 @keyframes tilt-shaking {
     0% {
@@ -62,10 +26,6 @@ ul {
 }
 
 
-.spin:hover {
-    animation: spin 2s ease infinite;
-}
-
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -76,15 +36,90 @@ ul {
     }
 }
 
+
+/* Utility styles */
+
+html {
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Bangers', cursive;
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightgray;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+/* nav {
+    padding:  3rem;
+} */
+
+
+a,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* index styles */
+
+
+.navbar {
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+.navbar-brand{
+    font-size: larger;
+}
+
+.main-header {
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+    word-wrap: break-word;
+    letter-spacing: .25rem;
+    text-shadow: -2px 5px gray;
+    font-size: 5rem;
+}
+
+.main-sub-header {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+.spin:hover {
+    animation: spin 2s ease infinite;
+}
+
+
 .constant-tilt-shake {
     animation: tilt-shaking 1s infinite linear;
 }
 
 .justifaction-card-container {
     display: flex;
-    width: 75%;
+    width: 85%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 0 auto;
     padding-bottom: 4rem;
     padding-top: 2.5rem;
@@ -113,10 +148,10 @@ ul {
     height: 20vh;
 }
 
-.about-container {
-    width: 90%;
-    margin: auto;
-    /* height: 35vh; */
+
+/* About page */
+.about-container{
+    margin-bottom: 5rem;
 }
 
 
@@ -138,9 +173,12 @@ ul {
     color: black;
 }
 
+/* denial, justification and dissonance pages */
+
 .denial-container {
     width: 90%;
     margin: auto;
+    margin-bottom: 5rem;
     border: 1px solid black;
     /* height: 40vh; */
     display: flex;
@@ -165,17 +203,22 @@ ul {
     font-size: 1.25rem;
 }
 
+
+/* footer styles */
+
 footer {
     width: 100%;
-    min-height: 20vh;
-    margin-top: 3rem;
+    /* min-height: 20vh; */
+    /* margin-top: 3rem; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 2rem 5rem;
     flex-wrap: wrap-reverse;
-}
+    margin-bottom: 0;
+    margin-top: auto;
 
+}
 
 
 .footer-links-container {
@@ -187,9 +230,8 @@ footer {
 }
 
 
-
-.footer-links-container  li:hover {
-text-decoration: underline;
+.footer-links-container li:hover {
+    text-decoration: underline;
 }
 
 .sign-up-form {
@@ -197,11 +239,11 @@ text-decoration: underline;
 }
 
 
-
-/* medai query */
+/* medai query for tablets and smaller*/
 @media (max-width: 768px) {
     footer {
         flex-direction: column;
+
     }
 
 

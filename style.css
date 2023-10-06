@@ -242,6 +242,10 @@ footer {
 /* medai query for tablets and smaller*/
 @media (max-width: 768px) {
 
+    .main-header {
+    font-size: 3rem;
+    }
+
 
     footer {
         flex-direction: column;

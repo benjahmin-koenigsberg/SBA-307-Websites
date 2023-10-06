@@ -1,6 +1,8 @@
-### About this Repo
+            -- About this Project --
 
- the **What is Carnism?** website
+### Github repo
+https://github.com/benjahmin-koenigsberg/SBA-307-Websites
+
 
 > I was tasked to build this site / repo to test my skills in creating a simple website with a clean layout and styling.
 
@@ -74,6 +76,8 @@ CSS Requirements
 ```
 
 ### Inspiration
+
+ the **What is Carnism?** website
 
 Trillions of sentient beings are being needlessy harmed and breed into exploitation everyday, so I will do better to be an advocate for them and help end their suffering by raising awareness about them, carnism and veganism
 
